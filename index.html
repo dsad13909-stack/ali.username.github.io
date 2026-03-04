@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме | Рагимханов Али</title>
+    <style>
+        :root {
+            --primary-color: #0088cc; /* Цвет Telegram */
+            --dark-bg: #222;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f2f5;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: var(--dark-bg);
+            color: white;
+            border-radius: 8px 8px 0 0;
+        }
+        h1 { margin: 0; font-size: 2.5em; }
+        .subtitle { color: var(--primary-color); font-weight: bold; font-size: 1.2em; }
+        
+        section {
+            background: white;
+            padding: 25px;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        h2 {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+            color: var(--dark-bg);
+        }
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .skill-category h3 { font-size: 1.1em; margin-bottom: 5px; }
+        ul { padding-left: 20px; }
+        .experience-item { margin-bottom: 20px; }
+        .experience-item strong { color: var(--primary-color); }
+        .tag {
+            display: inline-block;
+            background: #e1f5fe;
+            color: #0277bd;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Рагимханов Али</h1>
+    <p class="subtitle">Fullstack Developer | Telegram Bot & CRM Specialist</p>
+</header>
+
+<section class="contact-info">
+    <h2>Контактная информация</h2>
+    <p>📧 Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>📱 Telegram: <a href="https://t.me/your_username" target="_blank">@your_username</a></p>
+    <p>💻 GitHub: <a href="https://github.com/your_user" target="_blank">github.com/your_user</a></p>
+</section>
+
+<section>
+    <h2>Технические навыки</h2>
+    <div class="skill-grid">
+        <div class="skill-category">
+            <h3>🤖 Telegram Bots</h3>
+            <ul>
+                <li>Python (Aiogram 3.x, Telebot)</li>
+                <li>Telegram Web Apps (TWA)</li>
+                <li>Интеграция платежей (Stars, ЮKassa)</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>💼 CRM & Интеграции</h3>
+            <ul>
+                <li>Bitrix24 / amoCRM API</li>
+                <li>Разработка кастомных CRM</li>
+                <li>Webhooks & REST API</li>
+            </ul>
+        </div>
+        <div class="skill-category">
+            <h3>🌐 Web Development</h3>
+            <ul>
+                <li>Frontend: React, Vue.js</li>
+                <li>Backend: Node.js, FastAPI, Django</li>
+                <li>Базы данных: PostgreSQL, Redis</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="experience">
+    <h2>Опыт работы</h2>
+    <div class="experience-item">
+        <strong>Middle Developer / Automation Lead</strong> — Freelance / Project Work (2021 - н.в.)
+        <ul>
+            <li>Разработка сложных ботов для автоматизации онлайн-школ (сбор заявок -> CRM -> оплата).</li>
+            <li>Создание интерфейсов внутри Telegram (WebApps) для заказа еды и бронирования услуг.</li>
+            <li>Настройка сквозной аналитики между сайтом, ботом и CRM-системой.</li>
+        </ul>
+        <div>
+            <span class="tag">Python</span> <span class="tag">PostgreSQL</span> <span class="tag">React</span> <span class="tag">Docker</span>
+        </div>
+    </div>
+</section>
+
+<section class="education">
+    <h2>Образование</h2>
+    <ul>
+        <li><strong>Ваш Университет</strong> — Информационные системы и технологии (2018 - 2022)</li>
+    </ul>
+</section>
+
+<footer style="text-align:center; padding: 20px; color: #777;">
+    <p>&copy; 2026 Рагимханов Али. Собрано с помощью кода и кофе.</p>
+</footer>
+
+</body>
+</html>
